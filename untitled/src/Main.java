@@ -9,4 +9,13 @@ public class Main {
     public static int soma(int a, int b) {
         return a + b;
     }
+
+    public static boolean ePar(int num){
+        if (num % 2 == 0) {
+            return true;
+        }else {
+            return false;
+        }
+    }
+
 }
