@@ -2,6 +2,13 @@ public class Main {
     public static void main(String[] args) {
         
     }
+
+    public static int medi(int num1,int num2,int num3){
+        int result = (num1+ num2 + num3 ) / 3;
+        return result;
+
+    }
+
   
     public static int contarVogais (String str) {
         int contador = 0;
@@ -35,5 +42,6 @@ public class Main {
             return false;
         }
     }
+
 
 }
